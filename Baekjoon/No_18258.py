@@ -19,4 +19,4 @@ for j in range(m):
   else:
     print(dic[b])
 
-#a = sys.stdin.readline().split()
+#a = sys.stdin.readline().split()#

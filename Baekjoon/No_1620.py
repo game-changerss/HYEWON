@@ -10,6 +10,7 @@ for i in range(n): #n길이만큼 사전에 값 저장
 reverse_dic = dict(map(reversed,dic.items()))
 #키:값을 값:키로 뒤집기
 
+
 #reverse_dic = {v:k for k,v in dic.items()}
 #print(reverse_dic)
 

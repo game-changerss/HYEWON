@@ -1,7 +1,7 @@
 import sys
 from collections import deque
 
-queue = deque()
+queue = deque() #
 n = int(input())
 
 for i in range(n):

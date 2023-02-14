@@ -35,4 +35,4 @@ for i in range(n):
         if len(q) == 0:
             print(-1)
         else:
-            print(q[-1])##
+            print(q[-1])###

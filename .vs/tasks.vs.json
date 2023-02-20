@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-No_1966",
+      "appliesTo": "Baekjoon/No_1966.py",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-No_2504",
+      "appliesTo": "Baekjoon/No_2504.py",
+      "type": "launch"
+    }
+  ]
+}

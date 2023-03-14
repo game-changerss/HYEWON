@@ -2,14 +2,14 @@ from collections import deque
 
 N = int(input())
 stack = deque([i+1 for i in range(N)])
-#NÀÌ 4°¡ µé¾î¿Ã°æ¿ì stack = [1,2,3,4]
+#Nï¿½ï¿½ 4ï¿½ï¿½ ï¿½ï¿½ï¿½Ã°ï¿½ï¿½ stack = [1,2,3,4]
 
 if N > 2: 
     for i in range(N-2):
         stack.popleft()
         stack.append(stack.popleft())
 
-if len(stack) == 2: #³²Àº Ä«µå°¡ µÎ°³¸é
+if len(stack) == 2: #ï¿½ï¿½ï¿½ï¿½ Ä«ï¿½å°¡ ï¿½Î°ï¿½ï¿½ï¿½
     stack.popleft()
 
-print(stack.pop()) #¸¶Áö¸·³²Àº Ä«µå ¼ýÀÚ Ãâ·Â
+print(stack.pop()) #ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ä«ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½
